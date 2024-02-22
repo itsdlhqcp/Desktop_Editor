@@ -1,4 +1,8 @@
 # Getting Started with Create React App
+![Screenshot 2024-02-22 233512](https://github.com/itsdlhqcp/Desktop_Editor/assets/95963252/8f08c07d-2e75-4327-914c-31b530a11c7d)
+
+![Screenshot 2024-02-22 232651](https://github.com/itsdlhqcp/Desktop_Editor/assets/95963252/b3a88fc4-0131-4ccb-96fc-3b1b8121566c)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
