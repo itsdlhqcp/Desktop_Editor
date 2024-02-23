@@ -22,12 +22,9 @@ function App() {
   }, [editorState]);
 
   const handleSave = () => {
-    // Save the content to localStorage when the Save button is clicked
     const contentState = editorState.getCurrentContent();
     const contentJSON = JSON.stringify(convertToRaw(contentState));
     localStorage.setItem('editorContent', contentJSON);
-
-    // Notify the user with a custom toast
     toast(<CustomToast content="Everything Auto-Saved !!" />, {
       position: 'top-right',
       autoClose: 3000,
@@ -41,11 +38,9 @@ function App() {
   return (
     <>
       <h4>Demo Editor by Dilhaque C P <SaveButton onSave={handleSave} /></h4>
-      
       <div className="App">
         <RichTextEditor editorState={editorState} setEditorState={setEditorState} />
       </div>
-
       <ToastContainer />
     </>
   );
